@@ -1,0 +1,71 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/1366922/pexels-photo-1366922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height:80vh;
+}
+.card{
+    border:solid;
+    border-color: rgb(58, 58, 58);
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 25px;
+    box-shadow: 5px 10px #4598fd;
+}
+
+.user{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.pass{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.submit{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+/* .forgotU{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgotP{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+h1{
+    text-shadow: 5p, 10px, 8px #4598fd;
+}
+
+input::placeholder {
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(165, 152, 177);
+}
