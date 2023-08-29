@@ -10,6 +10,6 @@ function validate(){
         }
         else {
             attempt --; /*Decrement by one */
-            alert("You have left "+attempt+" attempt;");
+            alert("You have "+attempt+" attempts left;");
         }
 }
